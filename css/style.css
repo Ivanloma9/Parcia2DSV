@@ -33,8 +33,6 @@ body{
     margin: 0;
 }
 
-
-
 .navbar ul{
     display: flex;
     list-style: none;
@@ -121,6 +119,26 @@ th{
     font-weight: bold;
 }
 
+.creador {
+    background-color: #577CCA;
+    border: 2px solid #55C9ED;
+    margin: 0 auto;
+    border-collapse: collapse;
+    color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    vertical-align: middle;
+}
+.creador p{
+    margin: 10px;
+}
+.creador img{
+    max-width: 30%;
+    height: auto;
+    border-radius: 10%;
+}
 
 footer {
     font-size: 20px;
